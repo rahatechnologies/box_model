@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    margin: 2rem auto;
+    border: .5rem solid chartreuse;
+}
+
+.two {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #006;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 50vw;
+    text-align: center;
+    border-style: dashed;
+    border-color: red;
+    border-radius: 30%;
+    border-top: 1rem solid rgb(66, 213, 210);
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    margin-top: -20rem;
+}
+
+div.inline {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: aqua;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 50vw;
+    text-align: center;
+    border-style: double;
+    border-width: 1rem;
+    border-color: red;
+
+}
+
+div.one {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #879;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 50vw;
+    text-align: center;
+    
+}
+div.third {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #879;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 50vw;
+    text-align: center;
+    border: unset;
+    border-top: 1rem double red;
+    border-left: .5rem dashed orange;
+    border-top-left-radius: 40%;
+    
+}
+.one > .heading {
+    background-color: brown;
+}
+
+.links {
+    margin: 3rem;
+    border: unset;
+}
+
+a {
+    background-color: #689f3f;
+    text-decoration: none;
+    color: #222;
+    text-transform: uppercase;
+    padding: 1.2rem 1.5rem;
+    margin: 0 1.2rem;
+}
+#one_link {
+    border: 0.2rem solid rgba(19, 18, 18, 0.801);
+}
+#two_link {
+    outline: 0.2rem solid rgba(19, 18, 18, 0.801);
+    outline-offset: -1rem;
+    border: 0.2rem solid orangered;
+}
